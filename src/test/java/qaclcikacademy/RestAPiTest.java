@@ -30,5 +30,13 @@ public class RestAPiTest {
 		System.out.println("DeleteTwitter");
 
 	}
+	
+	@Test
+	public void DeleteTwitter2()
+	{
+		System.out.println("DeleteTwitter");
+
+	}
+
 
 }
