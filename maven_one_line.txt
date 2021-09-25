@@ -1,0 +1,50 @@
+Maven
+
+mvn archetypegenerate -DgroupId=qaclcikacademy -DartifactId=MavenJava -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn eclipse:eclipse
+
+In order to execute testcases, you have to add maven sure fire plugin
+
+mvn clean-  It will delete all previous temporary files, builds errors
+
+mvn compile - Check the syntax error in your project. It will not run the proejct
+
+mvn test   -  It will trigger the test execution
+
+
+In case we have multiple TestRunner file for multiple feature files
+mvn -Dtest=TestRunner test
+test -Dcucumber.options="--tags @"$Tags""
+--------------------------------------------------------------------------------------------
+
+Jenkins - It is a continuous integration tool
+
+----------------------------------
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+GIT  - It is a version control system
+
+
+GITHUB - 
+X  - writes some code and creates testcases "A" - //  6-10 2nd component  EST   - GITHUB
+Y  -                                          IST 
+
+
+Y had 5 line of code // 1-5  line (first componenet)
+
+
+X will keep the code in github and y will take it
+
+
+GIT is smart enough to know the difference of code
+GIT will be responsible for merging
+
+You need to know the git command to talk to central repository (GIT Hub or Bit Bucket ) from where you can take the code
+
+
+
+Tell Git who you are 
+git config --global user.name "Abdul"
+git config --global user.email "abdul.cool987@gmail.com"
+
+I told tha git that my name is Abdul and email adress is xyz and I am the one who will be talking with guthub
